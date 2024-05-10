@@ -4,7 +4,7 @@ const placeSchema = mongoose.Schema({
     nickname: String,
     name: String,
     latitude: Number,
-    longitutde: Number,
+    longitude: Number,
 });
 
 const Place = mongoose.model('places', placeSchema);
